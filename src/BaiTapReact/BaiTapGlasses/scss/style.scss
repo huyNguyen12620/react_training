@@ -1,0 +1,106 @@
+.bg{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+  z-index: 0;
+  background-color: rgba(63, 63, 63, 0.5);
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(63, 63, 63, 0.5);
+    z-index: -1;
+  }
+  h2{
+    text-align: center;
+    color: #fff;
+    background-color: #616161
+
+    ;
+    height: 50px;
+  }
+
+    .container{
+      .row{
+        .col-4{
+          .model{
+                position: relative;
+               
+              img{
+                  width: 100%;
+              }
+          }
+          .glasses{
+              .img_glass{
+            position: absolute;
+                  top: 20%;
+                  right: 61.2%;
+                  width: 15%;
+                  position: top left;
+              }
+              .glass_content{
+                position: absolute;
+                background-color: rgba(253,189,143,0.40);
+                width: 23.4%;
+                bottom: 38.4%;
+                h3{
+                    color: #7d6cbc;
+                    font-weight: 600;
+                    padding-left: 10px;
+                }
+                p{
+                  color: #fff;
+                  padding-left: 10px;
+                }
+              }
+             
+          }
+
+            
+        }
+
+        .gla_item_edit{
+          .model_edit{
+            position: relative;
+            .model_img_edit{
+                width: 100%;
+            }
+          }
+            
+            .glasses_img_edit{
+                img{
+                    position: absolute;
+                    top: 20%;
+                    right: 23.8%;
+                    width:15%;
+                }
+                .glass_content_edit{
+                  background-color: rgba(253,189,143,0.40);
+                  position: absolute;
+                  bottom: 38.4%;
+                  width: 23.5%;
+                  h3{
+                    color: #7d6cbc;
+                    font-weight: 600;
+                    padding-left: 10px;
+                  }
+
+                  p{
+                    color: #fff;
+                    padding-left: 10px;
+                  }
+                }
+
+
+            }
+        }
+      }
+
+      
+    }
+ 
+}
